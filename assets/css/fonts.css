@@ -1,0 +1,30 @@
+/* Fonts CSS */
+@font-face {
+	font-family: 'Metronic Pro';
+	font-style: normal;
+	font-weight: 300;
+	font-display: auto;
+	src: url('../fonts/MetronicPro-Light.woff') format('woff');
+}
+@font-face {
+	font-family: 'Metronic Pro';
+	font-style: normal;
+	font-weight: normal;
+	font-display: auto;
+	src: url('../fonts/MetronicPro.woff') format('woff');
+}
+@font-face {
+	font-family: 'Metronic Pro';
+	font-style: normal;
+	font-weight: 500;
+	font-display: auto;
+	src: url('../fonts/MetronicPro-SemiBold.woff') format('woff');
+}
+@font-face {
+	font-family: 'Metronic Pro';
+	font-style: normal;
+	font-weight: bold;
+	font-display: auto;
+	src: url('../fonts/MetronicPro-Bold.woff') format('woff');
+}
+/* Fonts CSS */
