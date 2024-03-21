@@ -219,9 +219,17 @@ body {
     color: rgba(0, 0, 0, 0.7);
     font-size: 15px;
     font-weight: 400;
-    padding: 18px 10px;
+    padding: 18px 15px;
     width: 100%;
     outline: none;
+}
+.form-holder select.form-control {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('../images/select-arrow.svg');
+    background-repeat: no-repeat;
+    background-position-x: 94%;
+    background-position-y: 23px;
 }
 .form-holder .form-control::placeholder {
     color: rgba(0, 0, 0, 0.7);
@@ -655,4 +663,60 @@ body {
     font-weight: 300;
     line-height: 1.5;
     padding: 40px 0 58px;
+}
+
+@media (max-width: 1599px) {
+    .img-text-section {
+        padding: 120px 0 0px;
+    }
+    .img-text-section .img-holder {
+        right: 0;
+        position: relative;
+        text-align: right;
+    }
+    .img-text-section.img-reverse .img-holder {
+        left: 0;
+        position: relative;
+        text-align: left;
+    }
+    .about-section {
+        padding: 115px 0 70px;
+    }
+}
+@media (max-width: 991px) {
+    .hero {
+        background-image: url('../images/hero-mob.jpg');
+        padding: 50px 0 0;
+    }
+    .hero .text-col, .hero .form-col {
+        width: 100%;
+    }
+    .hero .form-col {
+        justify-content: center;
+    }
+    .hero .text-row {
+        padding: 0;
+    }
+    .hero .title {
+        font-size: 36px;
+        text-align: center;
+        margin: 70px 0 28px;
+    }
+    .hero .text-col .description {
+        font-size: 20px;
+        text-align: center;
+    }
+    .hero .hero-list {
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+
+
+    .review-slider {
+        padding: 0 50px;
+    }
+}
+@media (max-width: 767px) {
+
 }
