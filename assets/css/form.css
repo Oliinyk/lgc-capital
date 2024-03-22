@@ -284,7 +284,7 @@
     margin: auto;
     background-color: #fff;
     box-shadow: 0 0 1.5em hsla(0, 0%, 0%, 0.35);
-    padding: 50px 20px;
+    padding: 130px 20px 60px;
     border-radius: 5px;
 }
 .modal-transition {
@@ -297,17 +297,19 @@
     opacity: 1;
 }
 .modal-form {
-    max-width: 380px;
+    max-width: 425px;
     margin: 0 auto;
     text-align: center;
 }
 .modal-title {
     font-size: 30px;
-    margin: 0 0 15px;
+    font-weight: 700;
+    margin: 0 0 25px;
 }
 .modal-subtitle {
     font-size: 18px;
     font-weight: 300;
+    line-height: 1.4;
     margin: 0 0 15px;
 }
 .modal-close {
@@ -318,4 +320,14 @@
     padding: 1em;
     background: none;
     border: 0;
+    transition: all 0.25s;
+}
+.modal-close:hover {
+    transform: rotate(90deg);
+}
+.modal-form .form-group {
+    padding: 0 22px;
+}
+.modal-form .btn {
+    margin: 0;
 }
