@@ -11,7 +11,6 @@ $(document).ready(function () {
         breakpoint: 1024,
         settings: {
           slidesToShow: 4,
-          slidesToScroll: 1,
         }
       },
       {
@@ -36,6 +35,8 @@ $(document).ready(function () {
       slidesToScroll: 1,
       arrows: true,
       dots: true,
+      autoplay: true,
+      autoplaySpeed: 3000,
       responsive: [
         {
           breakpoint: 1199,

@@ -189,12 +189,12 @@ body {
 .hero .form-holder {
     background-color: #fff;
     border-radius: 6px;
+    box-shadow: #0000001A 0px 10px 20px 0px;
     max-width: 470px;
     margin: 77px 0 0;
 }
 .hero .form-inner {
     padding: 47px 48px;
-    box-shadow: #0000001A 0px 10px 20px 0px;
 }
 .hero .form-title {
     font-size: 30px;
@@ -670,6 +670,118 @@ body {
     padding: 40px 0 58px;
 }
 
+/* p-3a */
+.p-3a .hero {
+    padding: 65px 0 89px;
+}
+.p-3a .hero .title {
+    margin: 80px 0 28px;
+}
+.p-3a .hero .form-holder {
+    margin: 100px 0 0;
+}
+.p-3a .hero .form-inner {
+    padding: 40px 48px 68px;
+}
+.p-3a .hero .form-title {
+    font-size: 24px;
+    line-height: 1.5;
+    margin: 0 0 35px;
+}
+.p-3a .hero .form-group {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    margin: 0 0 13px;
+}
+.p-3a .hero .form-group label {
+    border: 2px solid #D4DAE2;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    padding: 10px 18px;
+    position: relative;
+    width: 100%;
+    z-index: 1;
+}
+.p-3a .hero .form-group label img {
+    margin-right: 14px;
+}
+.p-3a .form-group .custom-check {
+    border: 2px solid #D4DAE2;
+    border-radius: 50%;
+    display: block;
+    height: 27px;
+    width: 27px;
+    position: absolute;
+    top: calc(50% - 15px);
+    right: 22px;
+}
+.p-3a .form-group .custom-check::after {
+    content: '';
+    background-image: url('../images/checkmark-white.svg');
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    opacity: 0;
+    height: 20px;
+    width: 20px;
+}
+.p-3a .form-check:checked + label {
+    background-color: rgba(34, 60, 118, 0.05);
+    border-color: var(--e-global-color-accent);
+}
+.p-3a .form-check:checked ~ .custom-check {
+    background-color: var(--e-global-color-accent);
+    border-color: transparent;
+}
+.p-3a .form-check:checked ~ .custom-check:after {
+    opacity: 1;
+}
+.p-3a .form-check {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -9;
+}
+.p-3a .form-holder .btn-wrap {
+    margin: 20px 0 0;
+}
+.p-3a .why-section {
+    background-color: transparent;
+    border-top: 1px solid #D4DAE2;
+    padding: 55px 0 125px;
+}
+.p-3a .why-section .title {
+    font-size: 44px;
+    margin: 0 0 62px;
+}
+.p-3a .why-section .item {
+    border: 2px solid #D4DAE2;
+}
+.p-3a .winner-section {
+    padding: 88px 0 107px;
+}
+.p-3a .winner-section .title {
+    margin: 0 0 50px;
+}
+.p-3a .review-section {
+    border: 0;
+    padding: 97px 0 50px;
+}
+.p-3a .img-text-section {
+    padding: 50px 0 155px;
+}
+.p-3a .about-section {
+    padding: 92px 0 70px;
+}
 @media (max-width: 1599px) {
     .img-text-section {
         padding: 120px 0 0px;
@@ -686,6 +798,12 @@ body {
     }
     .about-section {
         padding: 115px 0 70px;
+    }
+    .p-3a .img-text-section {
+        padding: 50px 0 50px;
+    }
+    .p-3a .about-section {
+        padding: 50px 0 70px;
     }
 }
 @media (max-width: 1399px) {
@@ -816,6 +934,26 @@ body {
     .about-section .title,
     .cta-section .title {
         font-size: 36px;
+    }
+    .p-3a .hero {
+        padding: 0;
+    }
+    .p-3a .hero .form-holder {
+        margin: 0;
+    }
+    .p-3a .why-section .title {
+        font-size: 36px;
+        margin: 0 0 50px;
+    }
+    .p-3a .why-section {
+        padding: 55px 0 50px;
+    }
+    .p-3a .winner-section {
+        padding: 50px 0 50px;
+    }
+    .p-3a .review-section {
+        border: 0;
+        padding: 50px 0 50px;
     }
 }
 @media (max-width: 767px) {
@@ -990,5 +1128,31 @@ body {
     }
     .footer {
         padding: 25px 0;
+    }
+    .p-3a .hero .title {
+        margin: 30px 0 18px;
+        text-align: left;
+    }
+    .p-3a .hero .form-col {
+        margin-top: 0;
+    }
+    .p-3a .hero .text-col {
+        padding: 30px 20px 20px;
+    }
+    .p-3a .hero .text-col .description {
+        text-align: left;
+        font-size: 17px;
+    }
+    .p-3a .hero .form-inner {
+        padding: 32px 20px 45px;
+    }
+    .p-3a .hero .form-title {
+        font-size: 22px;
+    }
+    .p-3a .why-section .title {
+        font-size: 22px;
+    }
+    .p-3a .winner-section .title {
+        margin: 0 0 35px;
     }
 }
