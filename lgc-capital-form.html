@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LGC Capital</title>
+
+    <link rel="icon" href="./assets/images/favicon/cropped-favicon-32x32.jpg" sizes="32x32" />
+    <link rel="icon" href="./assets/images/favicon/cropped-favicon-192x192.jpg" sizes="192x192" />
+    <link rel="apple-touch-icon" href="./assets/images/favicon/cropped-favicon-180x180.jpg" />
+    <meta name="msapplication-TileImage" content="./assets/images/favicon/cropped-favicon-270x270.jpg" />
+
+    <link rel="stylesheet" href="assets/css/fonts.css">
+    <link rel="stylesheet" href="assets/css/slick.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/form.css">
+</head>
+<body class="form-step">
+
+    <div class="hero">
+        <div class="container">
+            <a href="#" class="logo-wrap">
+                <img src="./assets/images/logo.png" class="logo-img" alt="logo">
+            </a>
+            <p class="subtitle">Thanks for your information</p>
+            <h1 class="title">Please Tell Us a Little More, To Get a Faster Decision</h1>
+            <h4 class="subtitle">We'll give you top priority for completing this part</h4>
+        </div>
+    </div>
+
+    <div class="form-section">
+        <div class="container">
+            <form class="form">
+                <div class="form-article">
+                    <h4 class="form-title">Company Details</h4>
+                    <div class="form-row">
+                        <div class="form-group custom-w">
+                            <label class="label" for="companyRegistrationInput">Company registration number</label>
+                            <input type="text" class="form-control" id="companyRegistrationInput" placeholder="Company registration number">
+                        </div>
+                        <div class="form-group">
+                            <label class="label" for="companyAddressInput">Company address</label>
+                            <input type="text" class="form-control" id="companyAddressInput" placeholder="Company address">
+                        </div>
+                        <div class="form-group custom-w">
+                            <label class="label" for="numberTradingInput">Number of years trading</label>
+                            <input type="text" class="form-control" id="numberTradingInput" placeholder="Number of years trading">
+                        </div>
+                        <div class="form-group">
+                            <label class="label" for="industryInput">Industry</label>
+                            <input type="text" class="form-control" id="industryInput" placeholder="Industry">
+                        </div>
+                        <div class="form-group">
+                            <label class="label" for="descriptionServicesInput">Description of services/products offered to the market</label>
+                            <input type="text" class="form-control" id="descriptionServicesInput" placeholder="Description of services/products offered to the market">
+                        </div>
+                        <div class="form-group">
+                            <label class="label" for="companyWebsiteInput">Company website</label>
+                            <input type="text" class="form-control" id="companyWebsiteInput" placeholder="Company website">
+                        </div>
+                        <div class="form-group custom-w">
+                            <label class="label" for="phoneNumberInput">Phone number</label>
+                            <input type="number" class="form-control" id="phoneNumberInput" placeholder="Phone number">
+                        </div>
+                        <div class="form-group custom-w">
+                            <p class="label">Upload of company profile if available</p>
+                            <div class="file-drop-area">
+                                <span class="fake-btn">
+                                    <svg class="upload-ico"><use xlink:href="#upload-ico"></use></svg>
+                                    UPLOAD A FILE
+                                </span>
+                                <span class="file-msg">Drag and drop file here</span>
+                                <input class="file-input" type="file" multiple>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="form-article">
+                    <h4 class="form-title">Director Details</h4>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label class="label" for="nameManagingDirectorInput">Name of Managing Director</label>
+                            <input type="text" class="form-control" id="nameManagingDirectorInput" placeholder="Name of Managing Director">
+                        </div>
+                        <div class="form-group custom-w">
+                            <label class="label" for="idManagingDirectorInput">ID number of Managing Director</label>
+                            <input type="text" class="form-control" id="idManagingDirectorInput" placeholder="ID number of Managing Director">
+                        </div>
+                        <div class="form-group custom-w">
+                            <label class="label" for="numberManagingDirectorInput">Phone number of Managing Director</label>
+                            <input type="text" class="form-control" id="numberManagingDirectorInput" placeholder="Phone number of Managing Director">
+                        </div>
+                    </div>
+                </div>
+                <!-- 3 -->
+                <div class="form-article">
+                    <h4 class="form-title">Details of Request</h4>
+                    <div class="form-row">
+
+                        <div class="form-group">
+                            <h6 class="label">Type of financing sought:</h6>
+                            <ul class="checkbox-list">
+                                <li class="checkbox-group">
+                                    <input type="checkbox" id="PurchaseOrderFinancing">
+                                    <label for="PurchaseOrderFinancing">Purchase Order Financing</label>
+                                </li>
+                                <li class="checkbox-group">
+                                    <input type="checkbox" id="InvoiceDiscounting">
+                                    <label for="InvoiceDiscounting">Invoice Discounting</label>
+                                </li>
+                                <li class="checkbox-group">
+                                    <input type="checkbox" id="WorkingCapital">
+                                    <label for="WorkingCapital">Working Capital</label>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label" for="enterInput">The customer to whom services have been/are to be rendered</label>
+                            <input type="text" class="form-control" id="enterInput" placeholder="Enter">
+                        </div>
+                        <div class="form-group">
+                            <label class="label" for="servicesOfferedInput">Services offered</label>
+                            <input type="text" class="form-control" id="servicesOfferedInput" placeholder="Services offered">
+                        </div>
+                        <div class="form-group">
+                            <label class="label" for="customerIndustryInput">Customer industry</label>
+                            <input type="text" class="form-control" id="customerIndustryInput" placeholder="Customer industry">
+                        </div>
+
+                        <div class="form-group">
+                            <label class="label" for="invoiceInput">Value of invoice/PO to be financed</label>
+                            <input type="text" class="form-control" id="invoiceInput" placeholder="Value of invoice/PO to be financed">
+                        </div>
+                        <div class="form-group">
+                            <label class="label" for="expectedGrosInput">Expected gross margin from invoice/PO</label>
+                            <input type="text" class="form-control" id="expectedGrosInput" placeholder="Expected gross margin from invoice/PO">
+                        </div>
+                        <div class="form-group">
+                            <label class="label" for="paymentTermsInput">Payment terms from the customer</label>
+                            <textarea class="form-control" id="paymentTermsInput" placeholder="Payment terms from the customer" rows="6"></textarea>
+                        </div>
+                    </div>
+                </div>
+                <!-- 4 -->
+                <div class="form-article">
+                    <h4 class="form-title">Financial Data</h4>
+                    <div class="form-row">
+                        <h4 class="form-title">Last financial year</h4>
+                        <div class="form-group custom-w">
+                            <label class="label" for="revenueInput">Revenue</label>
+                            <input type="text" class="form-control" id="revenueInput" placeholder="Revenue">
+                        </div>
+                        <div class="form-group custom-w">
+                            <label class="label" for="grossMarginInput">Gross Margin</label>
+                            <input type="text" class="form-control" id="grossMarginInput" placeholder="Gross Margin">
+                        </div>
+                        <div class="form-group custom-w">
+                            <label class="label" for="expensesInput">Expenses</label>
+                            <input type="text" class="form-control" id="expensesInput" placeholder="Expenses">
+                        </div>
+                        <div class="form-group custom-w">
+                            <label class="label" for="profitAfterTaxInput">Profit after tax</label>
+                            <input type="text" class="form-control" id="profitAfterTaxInput" placeholder="Profit after tax">
+                        </div>
+                    </div>
+                </div>
+                <!-- 5 -->
+                <div class="form-article">
+                    <h4 class="form-title hidden-mob"></h4>
+                    <div class="form-row">
+                        <h4 class="form-title">Average monthly current year</h4>
+                        <div class="form-group custom-w">
+                            <label class="label" for="revenueInput">Revenue</label>
+                            <input type="text" class="form-control" id="revenueInput" placeholder="Revenue">
+                        </div>
+                        <div class="form-group custom-w">
+                            <label class="label" for="grossMarginInput">Gross Margin</label>
+                            <input type="text" class="form-control" id="grossMarginInput" placeholder="Gross Margin">
+                        </div>
+                        <div class="form-group custom-w">
+                            <label class="label" for="expensesInput">Expenses</label>
+                            <input type="text" class="form-control" id="expensesInput" placeholder="Expenses">
+                        </div>
+                        <div class="form-group custom-w">
+                            <label class="label" for="profitAfterTaxInput">Profit after tax</label>
+                            <input type="text" class="form-control" id="profitAfterTaxInput" placeholder="Profit after tax">
+                        </div>
+                        <div class="form-group custom-w">
+                            <button type="submit" class="btn btn-primary">Get a Faster Decision</button>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="inner-row">
+                <p>2024 © LGC Capital. All Right Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- svg sprite -->
+    <div class="main_svg" hidden>
+        <svg>
+            <defs>
+                <!-- upload-ico -->
+                <symbol id="upload-ico" width="50" height="50" viewBox="0 0 50 50" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M18.877 25.4297L17.7441 24.2969L25.0195 17.041L32.2949 24.2969L31.1523 25.4297L25.8203 20.0977V43.7109H24.209V20.0977L18.877 25.4297Z" fill="black"/>
+                    <path d="M38.9941 17.9297C38.9941 17.8125 39.0137 17.6953 39.0137 17.5781C39.0137 11.2988 33.8574 6.21094 27.6074 6.21094C23.1055 6.21094 19.2285 8.85742 17.4121 12.6855C16.6211 12.2852 15.7422 12.0605 14.7949 12.0605C11.9043 12.0605 9.51172 14.3652 9.04297 17.1387C5.60547 18.3203 3.125 21.6992 3.125 25.5664C3.125 30.4199 7.04102 34.375 11.875 34.375H20.8008V32.8125H11.9531C7.95898 32.8125 4.70703 29.541 4.70703 25.5273C4.70703 22.4219 6.67969 19.5508 9.60938 18.5352L10.4297 18.252L10.5762 17.3926C10.9277 15.2832 12.7344 13.5547 14.8633 13.5547C15.5371 13.5547 16.2012 13.7109 16.8066 14.0234L18.125 14.6875L18.7598 13.3496C20.3809 9.94141 23.8477 7.74414 27.5879 7.74414C32.9883 7.74414 37.4414 11.9727 37.4414 17.4023C37.4414 18.7012 37.4219 19.3848 37.4219 19.3848L38.9062 19.3945C42.4805 19.4434 45.3125 22.6562 45.3125 26.2598C45.3125 29.8535 42.4023 32.793 38.8184 32.8125H38.5059H29.0039V34.375H38.8672C43.2617 34.375 46.875 30.7324 46.875 26.2891C46.875 21.8457 43.4082 17.9395 38.9941 17.9297Z" fill="black"/>
+                </symbol>
+            </defs>
+        </svg>
+    </div>
+
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <!-- <script src="assets/js/script.js"></script> -->
+
+    <script>
+        $(document).ready(function(){
+            // drag & drop
+            var $fileInput = $('.file-input');
+            var $droparea = $('.file-drop-area');
+
+            // highlight drag area
+            $fileInput.on('dragenter focus click', function() {
+                $droparea.addClass('is-active');
+            });
+
+            // back to normal state
+                $fileInput.on('dragleave blur drop', function() {
+                $droparea.removeClass('is-active');
+            });
+
+            // change inner text
+            $fileInput.on('change', function() {
+                var filesCount = $(this)[0].files.length;
+                var $textContainer = $(this).prev();
+
+                if (filesCount === 1) {
+                    // if single file is selected, show file name
+                    var fileName = $(this).val().split('\\').pop();
+                    $textContainer.text(fileName);
+                } else {
+                    // otherwise show number of files
+                    $textContainer.text(filesCount + ' files selected');
+                }
+            });
+        });
+    </script>
+
+</body>
+</html>
