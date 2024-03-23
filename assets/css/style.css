@@ -234,7 +234,7 @@ body {
     background-position-y: 23px;
     font-family: 'Metronic Pro', Sans-serif;
 }
-/*  */
+
 .form-holder select.form-control .option {
     background-repeat: no-repeat;
     background-position: 0 50%;
@@ -242,7 +242,7 @@ body {
 .selected-image {
     z-index: 1;
     position: absolute;
-    left: 0;
+    left: 5px;
     width: 100%;
     height: 100%;
     max-width: 46px;

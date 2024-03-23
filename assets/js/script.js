@@ -70,7 +70,6 @@ $(document).ready(function(){
     $('.modal').toggleClass('is-visible');
   });
 
-
   // select
   $('#mySelect').on('change', function() {
     var selectedImage = $(this).find(':selected').css('background-image');
@@ -78,12 +77,9 @@ $(document).ready(function(){
 
     var selectedIndex = $(this).prop('selectedIndex');
     if (selectedIndex > 0) {
-        $(this).css('padding', '18px 15px 18px 50px');
+        $(this).css('padding', '18px 15px 18px 55px');
     } else {
         $(this).css('padding', '18px 13px');
     }
   });
-
 });
-
-
