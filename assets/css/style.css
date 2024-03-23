@@ -250,7 +250,6 @@ body {
     background-repeat: no-repeat;
     top: calc(50% - 23px);
 }
-
 .form-holder .form-control::placeholder {
     color: rgba(0, 0, 0, 0.7);
     font-size: 15px;
@@ -269,7 +268,7 @@ body {
 .form-group .icon-place {
     position: absolute;
     z-index: 1;
-    top: 10px;
+    top: 12px;
     left: 38px;
     width: 32px;
 }
@@ -1304,6 +1303,8 @@ body {
     position: relative;
     cursor: pointer;
     font-size: 15px;
+    display: flex;
+    align-items: center;
 }
 .form-step .checkbox-group label:before {
     content:'';
@@ -1323,7 +1324,7 @@ body {
     content: '';
     display: block;
     position: absolute;
-    top: -2px;
+    top: 2px;
     left: 9px;
     width: 6px;
     height: 14px;
