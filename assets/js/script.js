@@ -70,4 +70,20 @@ $(document).ready(function(){
     $('.modal').toggleClass('is-visible');
   });
 
+
+  // select
+  $('#mySelect').on('change', function() {
+    var selectedImage = $(this).find(':selected').css('background-image');
+    $('#selectedImage').css('background-image', selectedImage);
+
+    var selectedIndex = $(this).prop('selectedIndex');
+    if (selectedIndex > 0) {
+        $(this).css('padding', '18px 15px 18px 50px');
+    } else {
+        $(this).css('padding', '18px 13px');
+    }
+  });
+
 });
+
+
