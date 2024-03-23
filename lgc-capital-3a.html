@@ -6,10 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LGC Capital</title>
 
-    <link rel="icon" href="./assets/images/favicon/cropped-favicon-32x32.jpg" sizes="32x32" />
-    <link rel="icon" href="./assets/images/favicon/cropped-favicon-192x192.jpg" sizes="192x192" />
-    <link rel="apple-touch-icon" href="./assets/images/favicon/cropped-favicon-180x180.jpg" />
-    <meta name="msapplication-TileImage" content="./assets/images/favicon/cropped-favicon-270x270.jpg" />
+    <link rel="icon" href="./assets/images/favicon/cropped-favicon-32x32.jpg" sizes="32x32">
+    <link rel="icon" href="./assets/images/favicon/cropped-favicon-192x192.jpg" sizes="192x192">
+    <link rel="apple-touch-icon" href="./assets/images/favicon/cropped-favicon-180x180.jpg">
+    <meta name="msapplication-TileImage" content="./assets/images/favicon/cropped-favicon-270x270.jpg">
 
     <link rel="stylesheet" href="assets/css/fonts.css">
     <link rel="stylesheet" href="assets/css/slick.css">
@@ -40,7 +40,7 @@
                                         <input type="radio" checked="checked" name="radio" id="south-africa" class="form-check">
                                         <label for="south-africa">
                                             <img src="assets/images/south-africa.svg" alt="south-africa">
-                                            South Africa
+                                            <span class="c-name">South Africa</span>
                                         </label>
                                         <span class="custom-check"></span>
                                     </div>
@@ -48,7 +48,7 @@
                                         <input type="radio" name="radio" id="zambia" class="form-check">
                                         <label for="zambia">
                                             <img src="assets/images/zambia.svg" alt="zambia">
-                                            Zambia
+                                            <span class="c-name">Zambia</span>
                                         </label>
                                         <span class="custom-check"></span>
                                     </div>
@@ -457,15 +457,14 @@
                     <path d="M39.5 8.5L8.5 39.5" stroke="black" stroke-width="3" stroke-miterlimit="10" stroke-linecap="round"/>
                 </svg>
             </button>
-
             <form class="modal-form form-holder">
                 <h2 class="modal-title">Find Out Your Interest Rate</h2>
                 <p class="modal-subtitle">Get a decision in under 48 hours for R50K to R500K. Larger amounts take a bit longer</p>
                 <div class="form-group">
                     <div class="icon-place iconPlacejs"></div>
-                    <select class="form-control" disabled>
-                        <option>South Africa</option>
-                        <option>Zambia</option>
+                    <select class="form-control selectValueJs" disabled>
+                        <option value="south-africa">South Africa</option>
+                        <option value="zambia">Zambia</option>
                     </select>
                 </div>
                 <div class="form-group">
@@ -488,7 +487,6 @@
                     <a href="https://oliinyk.github.io/lgc-capital/lgc-capital-form.html" class="btn btn-primary">Find Out Your Interest Rate</a>
                 </div>
             </form>
-                    
         </div>
     </div>
 

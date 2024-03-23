@@ -258,7 +258,6 @@ body {
 .form-holder select.form-control:disabled {
     padding: 18px 15px 18px 55px;
     background-color: #F4F4F4;
-    color: rgba(0, 0, 0, 0.4);
 }
 .form-holder .btn-wrap {
     text-align: center;

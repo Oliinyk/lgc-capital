@@ -66,6 +66,7 @@ $(document).ready(function(){
     $('.modal-form .iconPlacejs img').remove();
     let checkedId = $('input[type=radio]:checked').attr('id');
     $('<img src="assets/images/'+checkedId+'.svg" alt="'+checkedId+'">').appendTo('.modal-form .iconPlacejs');
+    $(".selectValueJs").val(checkedId).trigger('change');
 
     $('.modal').toggleClass('is-visible');
   });
